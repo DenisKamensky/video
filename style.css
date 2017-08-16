@@ -19,6 +19,29 @@
   height: 40px;
   padding: 10px;
 }
+.video-block__controll::after{
+  clear: both;
+  display: table;
+  content: '';
+}
 .video-block__play{
   cursor: pointer;
+  display: inline-block;
+}
+.video-block__speed{
+  display: inline-block;
+  float: right;
+}
+.video-block__speed-value{
+  padding: 0 10px;
+  border-left: 1px solid #333;
+  display: inline-block;
+  vertical-align: top;
+  cursor: pointer;
+}
+.video-block__speed-value:first-of-type{
+  border-left: none;
+}
+.video-block__speed-value--selected{
+  background-color: #fff;
 }
