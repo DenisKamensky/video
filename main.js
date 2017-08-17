@@ -26,8 +26,8 @@
           }
           curSpeedBtn.classList.add('video-block__speed-value--selected');
           var speed = parseFloat(curSpeedBtn.getAttribute('data-speed'));
-          videoElem.playBackRate = speed;
-          console.log(videoElem.playBackRate)
+          videoElem.playbackRate = speed;
+          console.log(videoElem.playbackRate)
         })
       })
     })
